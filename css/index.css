@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    
 }
 
 .top-content {
@@ -150,36 +151,30 @@ footer nav a {
     text-decoration: none;
 }
 
-header {
-    /* display: flex;
-    justify-content: center;
-    align-content: space-around; */
-    color: black;
-    border: 1px solid red;
+
     
 
-}
 
-.header #nav {
-    display: flex;
-    justify-content: space-around;
-}
 
 nav ul{
     display:flex;
-    border: 1px solid red;
-    color: red;
     justify-content: space-evenly;
 
+}
+header nav a {
+    text-decoration: none;
+    color: black;
 }
 
 header li{
     display:flex;
-    border: 1px solid red;
-    color: red;
     justify-content: space-evenly;
     align-content: flex-end;
-    align-content: flex-start;
+    text-align: end;
+    padding: 35px 0 0 0;
+    text-decoration: none;
+    color: black;
+    
 }
 
 .header-logo {
@@ -201,12 +196,34 @@ header li{
     justify-content: center;
 }
 
+.middle-content .boxes .box1:hover {
+    width: 12.5%;
+    height: 100px;
+    color: teal;
+    margin: 20px 2.5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .middle-content .boxes .box2 {
     width: 12.5%;
     height: 100px;
     color: white;
     margin: 20px 2.5%;
     background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2:hover {
+    width: 12.5%;
+    height: 100px;
+    color: gold;
+    margin: 20px 2.5%;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,12 +240,34 @@ header li{
     justify-content: center;
 }
 
+.middle-content .boxes .box3:hover {
+    width: 12.5%;
+    height: 100px;
+    color: cadetblue;
+    margin: 20px 2.5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .middle-content .boxes .box4 {
     width: 12.5%;
     height: 100px;
     color: white;
     margin: 20px 2.5%;
     background: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4:hover {
+    width: 12.5%;
+    height: 100px;
+    color: coral;
+    margin: 20px 2.5%;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,12 +284,34 @@ header li{
     justify-content: center;
 }
 
+.middle-content .boxes .box5:hover {
+    width: 12.5%;
+    height: 100px;
+    color: crimson;
+    margin: 20px 2.5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .middle-content .boxes .box6 {
     width: 12.5%;
     height: 100px;
     color: white;
     margin: 20px 2.5%;
     background: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6:hover {
+    width: 12.5%;
+    height: 100px;
+    color: forestgreen;
+    margin: 20px 2.5%;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,12 +328,34 @@ header li{
     justify-content: center;
 }
 
+.middle-content .boxes .box7:hover {
+    width: 12.5%;
+    height: 100px;
+    color: darkorchid;
+    margin: 20px 2.5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .middle-content .boxes .box8 {
     width: 12.5%;
     height: 100px;
     background: white;
     margin: 20px 2.5%;
     background: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8:hover {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,12 +371,32 @@ header li{
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box9:hover {
+    width: 12.5%;
+    height: 100px;
+    color: indigo;
+    margin: 20px 2.5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .middle-content .boxes .box10 {
     width: 12.5%;
     height: 100px;
     background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10:hover {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: dodgerblue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,12 +433,21 @@ header li{
 button {
     background: white;
     color: black;
-    height: 50px;
+    height: 40px;
     width: 120px;
     border:1px solid black;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+button:hover {
+    background: black;
+    color: white;
 }
 
 .header-logo {
     display:flex;
     justify-content: flex-start;
 }
+
